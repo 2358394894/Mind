@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/subscription/subscription",
+    "pages/publish/publish",
+    "pages/message/message",
+    "pages/user/mySelf",
+    "pages/user/user",
+    "pages/selectStyle/selectStyle",
+    "pages/preImage/preImage",
+    "pages/detail/detail",
+    "pages/commentList/commentList",
+    "pages/message/likes",
+    "pages/message/userComment",
+    "pages/subscription/search",
+    "pages/login/login",
+    "pages/user/setting",
+    "pages/user/editInfo",
+    "pages/user/editNickname",
+    "pages/user/editPassword"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "height": "44px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tabBar_index.png",
+        "selectedIconPath": "static/images/tabBar_index_s.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/subscription/subscription",
+        "iconPath": "static/images/tabBar_subscription.png",
+        "selectedIconPath": "static/images/tabBar_subscription_s.png",
+        "text": "订阅"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "iconPath": "static/images/tabBar_publish.png",
+        "selectedIconPath": "static/images/tabBar_publish.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/images/tabBar_message.png",
+        "selectedIconPath": "static/images/tabBar_message_s.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/user/mySelf",
+        "iconPath": "static/images/tabBar_user.png",
+        "selectedIconPath": "static/images/tabBar_user_s.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "Mind",
+  "compilerVersion": "2.3.7",
+  "usingComponents": {}
+}

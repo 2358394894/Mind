@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "评论",
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "bar": "/components/bar/bar",
+    "refresh": "/components/refresh/refresh"
+  }
+}

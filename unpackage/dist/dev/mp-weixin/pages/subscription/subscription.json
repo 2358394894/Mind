@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "订阅",
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "bar": "/components/bar/bar",
+    "refresh": "/components/refresh/refresh",
+    "share": "/components/share-module/share-module"
+  }
+}

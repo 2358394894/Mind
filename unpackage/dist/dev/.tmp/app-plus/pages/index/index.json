@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "disableScroll": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "refresh": "/components/refresh/refresh",
+    "share": "/components/share-module/share-module"
+  }
+}

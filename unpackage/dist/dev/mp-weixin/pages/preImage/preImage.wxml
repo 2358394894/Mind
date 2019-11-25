@@ -1,0 +1,1 @@
+<view class="container data-v-0a380feb"><bar vue-id="1" nav="{{setNav}}" data-event-opts="{{[['^tapRightButton',[['rightButton']]]]}}" bind:tapRightButton="__e" class="data-v-0a380feb" bind:__l="__l"></bar><view class="main data-v-0a380feb"><view class="imgBox data-v-0a380feb"><image src="../../static/testpic.png" class="data-v-0a380feb"></image></view></view></view>

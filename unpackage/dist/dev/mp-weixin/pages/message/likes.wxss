@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container.data-v-59fc76f0 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: auto;
+  background-color: #FFFFFF;
+  font-size: 15px;
+}
+.main.data-v-59fc76f0 {
+  height: 100%;
+  border-top: 1px solid #EDEDED;
+}
+/* 评论列表 */
+.likes.data-v-59fc76f0 {
+  padding: 0 20rpx 88rpx 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.likes-list.data-v-59fc76f0 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 12rpx 0 21rpx 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #F0F0F0;
+}
+/* 头像 */
+.likes-info.data-v-59fc76f0 {
+  width: 100%;
+  height: 62rpx;
+  line-height: 62rpx;
+  font-size: 13px;
+  color: #666666;
+}
+.likes-info image.data-v-59fc76f0 {
+    width: 62rpx;
+    height: 62rpx;
+    border-radius: 50%;
+    margin-right: 21rpx;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+.likes-info text.data-v-59fc76f0:nth-child(3) {
+    font-size: 11px;
+    float: right;
+}
+/* 内容框 */
+.likes-body.data-v-59fc76f0 {
+  width: 100%;
+  /* 文章内容 */
+}
+.likes-body .likes-tip.data-v-59fc76f0 {
+    width: 100%;
+    height: 76rpx;
+    line-height: 76rpx;
+    color: #333333;
+}
+.likes-body .likes-content.data-v-59fc76f0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100rpx;
+    overflow: hidden;
+    background-color: #F7F7F7;
+}
+.likes-body .likes-content image.data-v-59fc76f0 {
+      min-width: 150rpx;
+      min-height: 100rpx;
+      max-width: 150rpx;
+      max-height: 100rpx;
+      margin-right: 14rpx;
+      display: block;
+}
+.likes-body .likes-content .likes-text.data-v-59fc76f0 {
+      /* 超出1行时，隐藏并显示省略符 */
+      overflow: hidden;
+      -o-text-overflow: ellipsis;
+         text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      /* 行数控制 */
+      -webkit-box-orient: vertical;
+}
+.likes-body .likes-content .likes-text text.data-v-59fc76f0 {
+        font-size: 11px;
+        display: block;
+        /* 行高为1/2内容框高度, 使文字只显示两行 */
+        line-height: 50rpx;
+        color: #666666;
+}
+

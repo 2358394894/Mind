@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "消息",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "bar": "/components/bar/bar"
+  }
+}

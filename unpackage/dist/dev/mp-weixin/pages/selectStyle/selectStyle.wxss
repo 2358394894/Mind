@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container.data-v-62d617d7 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  font-size: 15px;
+}
+.main.data-v-62d617d7 {
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #EDEDED;
+}
+.main image.data-v-62d617d7 {
+    width: 100%;
+    height: 500rpx;
+    display: block;
+}
+.main .textBox.data-v-62d617d7 {
+    width: 100%;
+    height: 586rpx;
+    position: relative;
+}
+.main .textContent.data-v-62d617d7 {
+    max-height: 340rpx;
+    padding: 20rpx 0;
+    font-size: 13px;
+    color: #333333;
+    border: 1px solid pink;
+    text-align: center;
+    line-height: 27.5px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    /* height: 340rpx;
+		writing-mode:vertical-rl; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.main .textContent text.data-v-62d617d7 {
+      background-color: #EBEBEB;
+}
+.main .choice.data-v-62d617d7 {
+    width: 100%;
+    height: 120rpx;
+    background-color: #0A4025;
+    position: fixed;
+    bottom: 0px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.main .choice .icons.data-v-62d617d7 {
+      width: 76rpx;
+      height: 76rpx;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border: 1px dashed #0A4025;
+      background-color: #FFFFFF;
+      margin: 22rpx 26rpx 0 26rpx;
+      background-size: cover;
+}
+.main .choice.data-v-62d617d7 :nth-child(1) {
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAABWklEQVR4Xu3ZsU3DUABFUWcABFOkgSYDskGgJzR06agYgYFADGAEBUoV/StZkYWO66ev76PrNNnM8zxPnmGBDbBhq98hsOYFLHoBA1YF4t5vGLAoEOcKAxYF4lxhwKJAnCsMWBSIc4UBiwJxrjBgUSDOFQYsCsS5woBFgThXGLAoEOcKWzPY4/EwPRyf4xXPz3fb2+lt/7LomecOu2hhP2D3h/2iL7fb3k3vT6+LnrkqsJHCPr4+/+58c3V9FuNfFzaSwWmFl65n5H4X/SRHLgRsROlkAwxYFIhzhQGLAnGuMGBRIM4VBiwKxLnCgEWBOFcYsCgQ5woDFgXiXGHAokCcKwxYFIhzhQGLAnGusAi29vnq/mYDtnaBeD+FAYsCca4wYFEgzhUGLArEucKARYE4VxiwKBDnCgMWBeJcYcCiQJwrDFgUiHOFAYsCca4wYFEgzhUGLArE+Td4Tc4s6qd6PgAAAABJRU5ErkJggg==);
+}
+.main .choice.data-v-62d617d7 :nth-child(2) {
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAABQklEQVR4Xu3awWlCQRhGUV3bh32k8vRhH1k/Ibus9P6GQZyT9Y0y530KA56P4zhO/p4WOAN72uo3BNa8gEUvYMCqQOx9hwGLAjG3MGBRIOYWBiwKxNzCgEWBmFsYsCgQcwtbBXb5usa3ei3/+b699gL/9N/jhQGLTwBYBNs1H38kge0qEM9tYcCiQMwtDFgUiLmFAYsCMbewVWCrr0bxXA/z6WV+vDBgD5/J3wBYBNs1H38kge0qEM9tYcCiQMwtDFgUiLmFAYsCMbewVWDvdjWaXqaj1/x3+sAiNbAItmvuSz8+eWDAokDMLQxYFIi5hQGLAjG3MGBRIObjhb3b1Sie+zS9rAOL0sBWgcX3+Zh8vLCPEYgHAQYsCsTcwoBFgZhbGLAoEHMLAxYFYm5hwKJAzC0MWBSIuYUBiwIxt7AIdgdKMlMsI2JNJgAAAABJRU5ErkJggg==);
+}
+.main .choice.data-v-62d617d7 :nth-child(3) {
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAABOklEQVR4Xu3ZsQ2CUABFUandwz2c3DFI3MMao50V3G80hBzrK8LhaUKc5nleTl6bBSZgm63eIbDmBSx6AQNWBWLvNwxYFIi5hQGLAjG3MGBRIOYWBiwKxNzCgEWBmFsYsCgQcwsDFgVibmHAokDMLQxYFIi5hQGLAjGflmXxz3dAAxawXikwYFEg5hYGLArE3MKARYGYWxiwKBDzny/sfL3EU/ouf9zu3x1g5d3AIi+wvYHF89l9/vOF7V4gniAwYFEg5hYGLArE3MKARYGYWxiwKBDz4YX9+6E6XtdqPvqQDmyV9jMA9i+w+DmHyYcXdhiBeCHAgEWBmFsYsCgQcwsDFgVibmHAokDMhxfm4TtKAwO2SWD4K7np6AeMgMWbCgxYFIi5hQGLAjG3MGBRIOYWBiwKxNzCItgT+T89/K7ONHUAAAAASUVORK5CYII=);
+}
+

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "搜索",
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "share": "/components/share-module/share-module"
+  }
+}

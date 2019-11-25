@@ -1,0 +1,1 @@
+<view class="container data-v-658d2198"><bar vue-id="1" nav="{{setNav}}" data-event-opts="{{[['^tapRightButton',[['rightButton']]]]}}" bind:tapRightButton="__e" class="data-v-658d2198" bind:__l="__l"></bar><view class="main data-v-658d2198"><input type="text" value="" placeholder="请输入您的昵称..." placeholder-style="color: #CCCCCC;" class="data-v-658d2198"/></view></view>

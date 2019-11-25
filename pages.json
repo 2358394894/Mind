@@ -1,0 +1,232 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				// "navigationBarTextStyle": "black", // 状态栏文字颜色
+				"disableScroll": true,
+				"navigationStyle": "custom"
+				// "enablePullDownRefresh": true	// 开启下拉刷新
+			}
+		}
+        ,{
+            "path" : "pages/subscription/subscription",
+            "style" : {
+				"navigationBarTitleText": "订阅",
+				"navigationStyle": "custom",
+				"scrollIndicator": "none" ,
+				// 页面上拉触底事件触发时距页面底部距离，单位只支持px ↓
+				"onReachBottomDistance": 50
+				// "enablePullDownRefresh": true	// 开启下拉刷新
+			}
+        }
+        ,{
+            "path" : "pages/publish/publish",
+            "style" : {
+				"navigationBarTitleText": "发布",
+				// "disableScroll": true,
+				"navigationStyle": "custom"
+				// "scrollIndicator": "none",
+				// "bounce": "none"
+			}
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" : {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/user/mySelf",
+            "style" : {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" : {
+				"navigationBarTitleText": "用户中心",
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/selectStyle/selectStyle",
+            "style" : {
+				"navigationBarTitleText": "样式",
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/preImage/preImage",
+            "style" : {
+				"navigationBarTitleText": "预览",
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {
+				"navigationBarTitleText": "详情",
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/commentList/commentList",
+            "style" : {
+				"navigationBarTitleText": "评论列表",
+				"navigationStyle": "custom",
+				"scrollIndicator": "none",
+				// "enablePullDownRefresh": true,
+				// 页面上拉触底事件触发时距页面底部距离，单位只支持px ↓
+				"onReachBottomDistance": 50,
+				"disableScroll": true
+			}
+        }
+        ,{
+            "path" : "pages/message/likes",
+            "style" : {
+				"navigationBarTitleText": "赞",
+				"navigationStyle": "custom",
+				"scrollIndicator": "none",
+				"onReachBottomDistance": 50
+			}
+        }
+		,{
+		    "path" : "pages/message/userComment",
+		    "style" : {
+		    	"navigationBarTitleText": "评论",
+		    	"navigationStyle": "custom",
+		    	"scrollIndicator": "none",
+		    	"onReachBottomDistance": 50
+		    }
+		}
+        ,{
+            "path" : "pages/subscription/search",
+            "style" : {
+				"navigationBarTitleText": "搜索",
+				"navigationStyle": "custom",
+				"scrollIndicator": "none",
+				"onReachBottomDistance": 50
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom",
+				"disableScroll": true
+			}
+        }
+        ,{
+            "path" : "pages/user/setting",
+            "style" : {
+				"navigationBarTitleText": "设置",
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/user/editInfo",
+            "style" : {
+				"navigationBarTitleText": "编辑资料",
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/user/editNickname",
+            "style" : {
+				"navigationBarTitleText": "昵称",
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/user/editPassword",
+            "style" : {
+				"navigationBarTitleText": "修改密码",
+				"navigationStyle": "custom"
+			}
+        }
+    ],
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式（list 的索引项）
+		"list": [
+			// {
+			// 	"name": "publish", //模式名称
+			// 	"path": "pages/publish/publish" //启动页面(发布)，必选
+			// 	// "query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			// },
+			// {
+			// 	"name": "user",
+			// 	"path": "pages/login/login"
+			// }
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"height": "44px",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tabBar_index.png",
+				"selectedIconPath": "static/images/tabBar_index_s.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/subscription/subscription",
+				"iconPath": "static/images/tabBar_subscription.png",
+				"selectedIconPath": "static/images/tabBar_subscription_s.png",
+				"text": "订阅"
+			},
+			// #ifdef APP-PLUS
+			{
+				"pagePath": "pages/publish/publish",
+				"iconPath": "static/images/tabBar_publish.png",
+				"selectedIconPath": "static/images/tabBar_publish.png"
+				,"text": "发布"
+			},
+			// #endif
+			// #ifdef MP-WEIXIN
+			{
+				"pagePath": "pages/publish/publish",
+				"iconPath": "static/images/tabBar_publish.png",
+				"selectedIconPath": "static/images/tabBar_publish.png",
+				"text": "发布"
+			},
+			// #endif
+			{
+				"pagePath": "pages/message/message",
+				"iconPath": "static/images/tabBar_message.png",
+				"selectedIconPath": "static/images/tabBar_message_s.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/user/mySelf",
+				"iconPath": "static/images/tabBar_user.png",
+				"selectedIconPath": "static/images/tabBar_user_s.png",
+				"text": "我的"
+			}
+		]
+		// #ifndef APP-PLUS || MP-WEIXIN
+		// ,"midButton": {
+		// 	// "width": "80px",
+		// 	// "height": "38px", // Android 高度
+		// 	"height": "-11px",	// iOS 高度
+		// 	// "text": "文字",
+		// 	"iconPath": "static/images/tabBar_publish.png",
+		// 	"iconWidth": "32px"
+		// 	// "backgroundImage": "static/image/midButton_backgroundImage.png"
+		// }
+		// #endif
+	}
+}
